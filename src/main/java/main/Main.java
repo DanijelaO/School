@@ -5,10 +5,21 @@
  */
 package main;
 
+import student.Student;
 /**
  *
  * @author qa
  */
 public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        System.out.println("Pocetak");
+        String message = "Pocetak";
+        Student petar = new Student ("Petar", "Petrovic", 1990);
+        petar.info ();
+    }
     
 }
