@@ -15,6 +15,8 @@ public class Student {
         this.firstName = "";
         this.lastName = "";
         this.yearOfBirth = 0;
+        this.course = new Course();
+        this.myComputer = new Computer();
     }
     
     public Student (String customFirstName, String customLastName, int customYearOfBirth ){
