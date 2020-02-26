@@ -68,8 +68,13 @@ public class Student {
     
     
     public void info() {
-        System.out.println("Ime: " + getFirstName());
-        System.out.println("Prezime " + getLastName());
-        System.out.println("Godiste: " + getYearOfBirth());
+        System.out.println("First Name: " + getFirstName());
+        System.out.println("Last Name " + getLastName());
+        System.out.println("Year of Birth: " + getYearOfBirth());
+        System.out.println("Course Name: " + getCourse().getName());
+        System.out.println("Course Number of Clasess: " + getCourse().getNumberOfClasses());
+        System.out.println("Computer Process Tact: " + getMyComputer().getProcessTact());
+        System.out.println("Computer Memory: " + getMyComputer().getMemory());
+        System.out.println("Computer Hard Drive: " + getMyComputer().getHardDrive());
     }
 }
